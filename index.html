@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/css/styles.css" rel="stylesheet">
+    <script defer src="./assets/js/script.js"></script>
+    <title>JS Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="game-header">JavaScript Quiz Game</h1>
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
+            <div class="quiz-header">
+                <div id="progress">Time Remaining/Current Score</div>
+                <div id="timer" class="score">100</div>
+            </div>
+            <div id="answer-btns" class="btn-grid">
+                <button class="btn" id="A" onclick="checkAnswer('A')">A</button>
+                <button class="btn" id="B" onclick="checkAnswer('B')">B</button>
+                <button class="btn" id="C" onclick="checkAnswer('C')">C</button>
+                <button class="btn" id="D" onclick="checkAnswer('D')">D</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start Game</button>
+            <button id="score-btn" class="score-btn btn" onclick="location.href='./assets/html/high-scores.html'">High Scores</button>
+        </div>
+    </div>
+</body>
+</html>
