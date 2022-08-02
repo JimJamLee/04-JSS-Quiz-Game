@@ -68,7 +68,7 @@ Submit the following for review:
 
 The following image shows the web application's appearance and functionality:
 
-![James Li profile page](./assets/04-jss-quiz-game-screenshots)
+![James Li quiz game app](./assets/04-jss-quiz-game-screenshots.png)
 
 ## Application Link
 
